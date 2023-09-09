@@ -1,11 +1,14 @@
 {
-  "name": "jssandbox",
+  "name": "js-starter-code",
   "version": "1.0.0",
-  "description": "Practice Repo",
+  "description": "JS Starter Code",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Pluralsight",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
